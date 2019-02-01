@@ -24,14 +24,14 @@
   "dependencies": {
     "@weknow/gatsby-remark-drupal": "^0.3.2",
     "@weknow/gatsby-remark-twitter": "^0.2.0",
+    "@weknow/gatsby-theme-drupal-boina": "^0.1.0",
+    "gatsby": "^2.0.91",
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-embed-gist": "^1.1.4",
     "gatsby-remark-embed-video": "^1.7.0",
-    "gatsby": "^2.0.91",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
     "prop-types": "^15.6.2",
-    "@weknow/gatsby-theme-drupal-boina": "*"
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   },
   "repository": {
     "type": "git",
