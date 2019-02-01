@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-starter-drupal-boina",
+  "description": "The Gatsby Starter for the Drupal Boina Distribution",
+  "version": "1.0.0",
+  "author": "Jairo Rondon <jrondon@weknowinc.com>",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve --host 0.0.0.0 --port 9000",
+    "commitmsg": "commitlint -E GIT_PARAMS",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "@weknow/gatsby-remark-drupal": "^0.3.2",
+    "@weknow/gatsby-remark-twitter": "^0.2.0",
+    "gatsby-remark-copy-images": "^0.2.1",
+    "gatsby-remark-embed-gist": "^1.1.4",
+    "gatsby-remark-embed-video": "^1.7.0",
+    "gatsby": "^2.0.91",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "prop-types": "^15.6.2",
+    "@weknow/gatsby-theme-drupal-boina": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weknowinc/gatsby-starter-drupal-boina"
+  }
+}
